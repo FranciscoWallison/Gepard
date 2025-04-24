@@ -1,0 +1,5 @@
+﻿  Main.cpp
+     Criando biblioteca C:\Gepard\Debug\Gepard.lib e objeto C:\Gepard\Debug\Gepard.exp
+detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' não foi encontrado 'detours.lib(detours.obj)' ou no 'C:\Gepard\Debug\detours.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' não foi encontrado 'detours.lib(disasm.obj)' ou no 'C:\Gepard\Debug\detours.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
+  Gepard.vcxproj -> C:\Gepard\Debug\Gepard.dll

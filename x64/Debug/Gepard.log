@@ -1,0 +1,187 @@
+﻿  Main.cpp
+C:\Gepard\Main.cpp(56,61): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'p_Send' de tamanho maior
+C:\Gepard\Main.cpp(57,2): error C4235: extensão não padrão usada: palavra-chave '__asm' sem suporte nesta arquitetura
+C:\Gepard\Main.cpp(57,8): error C2065: 'pushad': identificador não declarado
+C:\Gepard\Main.cpp(58,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'hexdump'
+C:\Gepard\Main.cpp(59,2): error C4235: extensão não padrão usada: palavra-chave '__asm' sem suporte nesta arquitetura
+C:\Gepard\Main.cpp(59,8): error C2065: 'popad': identificador não declarado
+C:\Gepard\Main.cpp(63,2): error C2146: erro de sintaxe: ';' ausente antes do identificador 'sg'
+C:\Gepard\Main.cpp(75,61): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'p_Recv' de tamanho maior
+C:\Gepard\Main.cpp(83,77): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(83,77): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(83,88): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'p_file' de tamanho maior
+C:\Gepard\Main.cpp(88,12): error C2485: 'naked': atributo estendido não reconhecido
+C:\Gepard\Main.cpp(91,2): error C4235: extensão não padrão usada: palavra-chave '__asm' sem suporte nesta arquitetura
+C:\Gepard\Main.cpp(93,3): error C2065: 'cmp': identificador não declarado
+C:\Gepard\Main.cpp(93,7): error C2146: erro de sintaxe: ';' ausente antes do identificador 'eax'
+C:\Gepard\Main.cpp(93,7): error C2065: 'eax': identificador não declarado
+C:\Gepard\Main.cpp(94,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'je'
+C:\Gepard\Main.cpp(94,3): error C2065: 'je': identificador não declarado
+C:\Gepard\Main.cpp(94,6): error C2146: erro de sintaxe: ';' ausente antes do identificador 'FAKE'
+C:\Gepard\Main.cpp(94,6): error C2065: 'FAKE': identificador não declarado
+C:\Gepard\Main.cpp(95,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'cmp'
+C:\Gepard\Main.cpp(95,3): error C2065: 'cmp': identificador não declarado
+C:\Gepard\Main.cpp(95,7): error C2146: erro de sintaxe: ';' ausente antes do identificador 'eax'
+C:\Gepard\Main.cpp(95,7): error C2065: 'eax': identificador não declarado
+C:\Gepard\Main.cpp(96,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'je'
+C:\Gepard\Main.cpp(96,3): error C2065: 'je': identificador não declarado
+C:\Gepard\Main.cpp(96,6): error C2146: erro de sintaxe: ';' ausente antes do identificador 'FAKE2'
+C:\Gepard\Main.cpp(96,6): error C2065: 'FAKE2': identificador não declarado
+C:\Gepard\Main.cpp(97,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'cmp'
+C:\Gepard\Main.cpp(97,3): error C2065: 'cmp': identificador não declarado
+C:\Gepard\Main.cpp(97,7): error C2146: erro de sintaxe: ';' ausente antes do identificador 'eax'
+C:\Gepard\Main.cpp(97,7): error C2065: 'eax': identificador não declarado
+C:\Gepard\Main.cpp(98,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'je'
+C:\Gepard\Main.cpp(98,3): error C2065: 'je': identificador não declarado
+C:\Gepard\Main.cpp(98,6): error C2146: erro de sintaxe: ';' ausente antes do identificador 'FAKE3'
+C:\Gepard\Main.cpp(98,6): error C2065: 'FAKE3': identificador não declarado
+C:\Gepard\Main.cpp(99,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'cmp'
+C:\Gepard\Main.cpp(99,3): error C2065: 'cmp': identificador não declarado
+C:\Gepard\Main.cpp(99,7): error C2146: erro de sintaxe: ';' ausente antes do identificador 'eax'
+C:\Gepard\Main.cpp(99,7): error C2065: 'eax': identificador não declarado
+C:\Gepard\Main.cpp(100,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'je'
+C:\Gepard\Main.cpp(100,3): error C2065: 'je': identificador não declarado
+C:\Gepard\Main.cpp(100,6): error C2146: erro de sintaxe: ';' ausente antes do identificador 'FAKE4'
+C:\Gepard\Main.cpp(100,6): error C2065: 'FAKE4': identificador não declarado
+C:\Gepard\Main.cpp(102,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'cmp'
+C:\Gepard\Main.cpp(102,3): error C2065: 'cmp': identificador não declarado
+C:\Gepard\Main.cpp(102,7): error C2146: erro de sintaxe: ';' ausente antes do identificador 'eax'
+C:\Gepard\Main.cpp(102,7): error C2065: 'eax': identificador não declarado
+C:\Gepard\Main.cpp(103,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'je'
+C:\Gepard\Main.cpp(103,3): error C2065: 'je': identificador não declarado
+C:\Gepard\Main.cpp(103,6): error C2146: erro de sintaxe: ';' ausente antes do identificador 'FAKE5'
+C:\Gepard\Main.cpp(103,6): error C2065: 'FAKE5': identificador não declarado
+C:\Gepard\Main.cpp(104,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'cmp'
+C:\Gepard\Main.cpp(104,3): error C2065: 'cmp': identificador não declarado
+C:\Gepard\Main.cpp(104,7): error C2146: erro de sintaxe: ';' ausente antes do identificador 'eax'
+C:\Gepard\Main.cpp(104,7): error C2065: 'eax': identificador não declarado
+C:\Gepard\Main.cpp(105,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'je'
+C:\Gepard\Main.cpp(105,3): error C2065: 'je': identificador não declarado
+C:\Gepard\Main.cpp(105,6): error C2146: erro de sintaxe: ';' ausente antes do identificador 'FAKE6'
+C:\Gepard\Main.cpp(105,6): error C2065: 'FAKE6': identificador não declarado
+C:\Gepard\Main.cpp(106,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'cmp'
+C:\Gepard\Main.cpp(106,3): error C2065: 'cmp': identificador não declarado
+C:\Gepard\Main.cpp(106,7): error C2146: erro de sintaxe: ';' ausente antes do identificador 'eax'
+C:\Gepard\Main.cpp(106,7): error C2065: 'eax': identificador não declarado
+C:\Gepard\Main.cpp(107,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'je'
+C:\Gepard\Main.cpp(107,3): error C2065: 'je': identificador não declarado
+C:\Gepard\Main.cpp(107,6): error C2146: erro de sintaxe: ';' ausente antes do identificador 'FAKE7'
+C:\Gepard\Main.cpp(107,6): error C2065: 'FAKE7': identificador não declarado
+C:\Gepard\Main.cpp(108,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'cmp'
+C:\Gepard\Main.cpp(108,3): error C2065: 'cmp': identificador não declarado
+C:\Gepard\Main.cpp(108,7): error C2146: erro de sintaxe: ';' ausente antes do identificador 'eax'
+C:\Gepard\Main.cpp(108,7): error C2065: 'eax': identificador não declarado
+C:\Gepard\Main.cpp(109,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'je'
+C:\Gepard\Main.cpp(109,3): error C2065: 'je': identificador não declarado
+C:\Gepard\Main.cpp(109,6): error C2146: erro de sintaxe: ';' ausente antes do identificador 'FAKE8'
+C:\Gepard\Main.cpp(109,6): error C2065: 'FAKE8': identificador não declarado
+C:\Gepard\Main.cpp(112,3): error C2146: erro de sintaxe: ';' ausente antes do identificador 'lea'
+C:\Gepard\Main.cpp(112,3): error C2065: 'lea': identificador não declarado
+C:\Gepard\Main.cpp(112,7): error C2146: erro de sintaxe: ';' ausente antes do identificador 'edi'
+C:\Gepard\Main.cpp(112,7): error C2065: 'edi': identificador não declarado
+C:\Gepard\Main.cpp(112,17): error C2143: erro de sintaxe: ']' ausente antes de '+'
+C:\Gepard\Main.cpp(112,17): error C3481: 'edi': variável de captura de lambda não encontrada
+C:\Gepard\Main.cpp(112,17): error C3260: '+': ignorando token(s) inesperado(s) antes do corpo lambda
+C:\Gepard\Main.cpp(224,1): error C3487: 'int': todas as expressões de retorno devem ser deduzidas para o mesmo tipo: anteriormente, ele era 'bool'
+C:\Gepard\Main.cpp(235,1): error C3487: 'int': todas as expressões de retorno devem ser deduzidas para o mesmo tipo: anteriormente, ele era 'bool'
+C:\Gepard\Main.cpp(239,1): error C3487: 'int': todas as expressões de retorno devem ser deduzidas para o mesmo tipo: anteriormente, ele era 'bool'
+C:\Gepard\Main.cpp(242,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(242,1): warning C4302: 'reinterpret_cast': truncamento de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(242,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'LPVOID' de tamanho maior
+C:\Gepard\Main.cpp(246,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(246,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(246,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'LPVOID' de tamanho maior
+C:\Gepard\Main.cpp(247,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(247,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(247,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'LPVOID' de tamanho maior
+C:\Gepard\Main.cpp(248,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(248,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(248,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'LPVOID' de tamanho maior
+C:\Gepard\Main.cpp(249,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(249,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(249,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'LPVOID' de tamanho maior
+C:\Gepard\Main.cpp(250,1): error C3487: 'int': todas as expressões de retorno devem ser deduzidas para o mesmo tipo: anteriormente, ele era 'bool'
+C:\Gepard\Main.cpp(252,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(252,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(252,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+C:\Gepard\Main.cpp(252,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(252,1): warning C4302: 'reinterpret_cast': truncamento de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(253,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(253,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(253,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+C:\Gepard\Main.cpp(253,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(253,1): warning C4302: 'reinterpret_cast': truncamento de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(254,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(254,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(254,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+C:\Gepard\Main.cpp(254,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(254,1): warning C4302: 'reinterpret_cast': truncamento de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(255,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(255,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(255,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+C:\Gepard\Main.cpp(255,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(255,1): warning C4302: 'reinterpret_cast': truncamento de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(259,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(259,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(259,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'LPVOID' de tamanho maior
+C:\Gepard\Main.cpp(260,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(260,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(260,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'LPVOID' de tamanho maior
+C:\Gepard\Main.cpp(261,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(261,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(261,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'LPVOID' de tamanho maior
+C:\Gepard\Main.cpp(262,1): error C3487: 'int': todas as expressões de retorno devem ser deduzidas para o mesmo tipo: anteriormente, ele era 'bool'
+C:\Gepard\Main.cpp(264,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(264,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(264,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+C:\Gepard\Main.cpp(264,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(264,1): warning C4302: 'reinterpret_cast': truncamento de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(265,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(265,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(265,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+C:\Gepard\Main.cpp(265,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(265,1): warning C4302: 'reinterpret_cast': truncamento de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(266,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(266,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(266,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+C:\Gepard\Main.cpp(266,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(266,1): warning C4302: 'reinterpret_cast': truncamento de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(268,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(268,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(268,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'LPVOID' de tamanho maior
+C:\Gepard\Main.cpp(269,1): error C3487: 'int': todas as expressões de retorno devem ser deduzidas para o mesmo tipo: anteriormente, ele era 'bool'
+C:\Gepard\Main.cpp(272,1): error C3487: 'int': todas as expressões de retorno devem ser deduzidas para o mesmo tipo: anteriormente, ele era 'bool'
+C:\Gepard\Main.cpp(274,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(274,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(275,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(275,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(281,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(281,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(281,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'LPVOID' de tamanho maior
+C:\Gepard\Main.cpp(282,1): error C3487: 'int': todas as expressões de retorno devem ser deduzidas para o mesmo tipo: anteriormente, ele era 'bool'
+C:\Gepard\Main.cpp(284,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(284,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(284,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'LPVOID' de tamanho maior
+C:\Gepard\Main.cpp(335,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(335,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(335,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+C:\Gepard\Main.cpp(335,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(335,1): warning C4302: 'reinterpret_cast': truncamento de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(336,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(336,1): warning C4302: 'reinterpret_cast': truncamento de 'HMODULE' para 'DWORD'
+C:\Gepard\Main.cpp(336,1): warning C4312: 'reinterpret_cast': conversão de 'DWORD' para 'DWORD *' de tamanho maior
+C:\Gepard\Main.cpp(336,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(336,1): warning C4302: 'reinterpret_cast': truncamento de 'LPVOID' para 'DWORD'
+C:\Gepard\Main.cpp(337,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'DWORD (__cdecl *)(SOCKET,char *,int,int)' para 'DWORD'
+C:\Gepard\Main.cpp(337,1): warning C4302: 'reinterpret_cast': truncamento de 'DWORD (__cdecl *)(SOCKET,char *,int,int)' para 'DWORD'
+C:\Gepard\Main.cpp(339,1): warning C4311: 'reinterpret_cast': truncamento de ponteiro de 'BOOL (__cdecl *)(void *,void *,char *,DWORD,DWORD,DWORD)' para 'DWORD'
+C:\Gepard\Main.cpp(339,1): warning C4302: 'reinterpret_cast': truncamento de 'BOOL (__cdecl *)(void *,void *,char *,DWORD,DWORD,DWORD)' para 'DWORD'
+C:\Gepard\Main.cpp(347,1): error C2144: erro de sintaxe: 'int' deve ser precedido por ';'
+C:\Gepard\Main.cpp(347,37): error C2598: especificação de vínculo deve estar em escopo global
+C:\Gepard\Main.cpp(347,37): error C2601: 'get_gepard_version': definições de função local são inválidas
+C:\Gepard\Main.cpp(355,13): error C2601: 'DllMain': definições de função local são inválidas
+C:\Gepard\Main.cpp(365,6): error C2601: 'Hook_FindFirstFileW': definições de função local são inválidas
+C:\Gepard\Main.cpp(394,6): error C2601: 'Hook_CRC': definições de função local são inválidas
+C:\Gepard\Main.cpp(410,6): error C2601: 'Hook_OpenProcess': definições de função local são inválidas
+C:\Gepard\Main.cpp(438,6): error C2601: 'Hook_CreateFileA': definições de função local são inválidas
+C:\Gepard\Main.cpp(478,1): fatal error C1004: fim de arquivo inesperado encontrado
