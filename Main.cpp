@@ -27,6 +27,20 @@ LPVOID GameModule = 0, FakeGameModule = 0, CRC_1Back = 0;
 
 SOCKET sg = 0;
 
+void AbrirConsole()
+{
+	FILE* f;
+	AllocConsole();  // Cria uma nova janela de console
+	freopen_s(&f, "CONOUT$", "w", stdout); // Redireciona stdout para o console
+	freopen_s(&f, "CONOUT$", "w", stderr); // Redireciona stderr também
+	freopen_s(&f, "CONIN$", "r", stdin);   // Opcional: redireciona stdin
+
+	SetConsoleTitleA("Debug Gepard Bypass");
+
+	std::cout << "[✔] Console de debug iniciado!" << std::endl;
+}
+
+
 void hexdump(void* ptr, int buflen, bool send) {
 	unsigned char* buf = (unsigned char*)ptr;
 	int i = 0, j = 0;
@@ -64,18 +78,21 @@ DWORD WINAPI SendFunc(
 	return o_Send(s, const_cast<char*>(buf), len, flags);
 }
 
-DWORD WINAPI RecvFunc(
-	SOCKET     s,
-	char* buf,
-	int        len,
-	int        flags)
+DWORD WINAPI RecvFunc(SOCKET s, char* buf, int len, int flags)
 {
+    typedef DWORD(WINAPI * p_Recv)(SOCKET s, char* buf, int len, int flags);
+    p_Recv o_Recv = reinterpret_cast<p_Recv>(fake_Variable_Recv);
+    DWORD res = o_Recv(s, buf, len, flags);
 
-	typedef DWORD(WINAPI * p_Recv)(SOCKET s, char* buf, int len, int flags);
-	p_Recv o_Recv = reinterpret_cast<p_Recv>(fake_Variable_Recv);
-	DWORD res = o_Recv(s, buf, len, flags);
-	return res;
+    if (res > 0) {
+        __asm pushad
+        hexdump(reinterpret_cast<void*>(buf), res, false);
+        __asm popad
+    }
+    return res;
 }
+
+
 
 BOOL __fastcall  LoadFile(void* T, void* EDX, char* a1, DWORD a2, DWORD a3, DWORD a4)
 {
@@ -357,6 +374,7 @@ BOOL WINAPI DllMain(HMODULE hDll, DWORD dwReason, LPVOID lpReserved)
 	if (dwReason == DLL_PROCESS_ATTACH)
 	{
 		PrepareBypass();
+		AbrirConsole(); 
 		return TRUE;
 	}
 	return TRUE;
